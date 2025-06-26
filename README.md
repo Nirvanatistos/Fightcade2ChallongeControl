@@ -2,7 +2,7 @@
 # 🎮 Fightcade2Challonge Control v1.0
 
 ## 🖥️ Captura de Pantalla
-([assets/screenshots/gui.png](https://raw.githubusercontent.com/Nirvanatistos/Fightcade2ChallongeControl/refs/heads/main/Screenshot.png))
+
 
 > 🛠️ **Controla tus torneos de Challonge desde Fightcade 2**  
 > Automatiza resultados con `p1score.txt` y `p2score.txt` (datos de FightCade 2).
