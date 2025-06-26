@@ -1,9 +1,6 @@
 
 # 🎮 Fightcade2Challonge Control v1.0
 
-## 🖥️ Captura de Pantalla
-
-
 > 🛠️ **Controla tus torneos de Challonge desde Fightcade 2**  
 > Automatiza resultados con `p1score.txt` y `p2score.txt` (datos de FightCade 2).
 > Se vincula automáticamente con Challonge.
