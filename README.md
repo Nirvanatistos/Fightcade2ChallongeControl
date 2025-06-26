@@ -69,7 +69,7 @@ Tu API Key es algo como: `abcdefghijk1234567890`
 ## ⚙️ ¿Cómo funciona el Modo Fightcade?.
 
 1. Abre un torneo de doble eliminación en Challonge.
-2. Selecciona cuántas victorias se necesitan para ganar (`FT`) ( Requerido: "FT Torneo" y "FT Final" para Final y Grand Final).
+2. Selecciona cuántas victorias se necesitan para ganar (`FT`) ( Requerido: "FT Torneo" y "FT Final" para Losers Finals, Winners Finals, Grand Final y Grand Final Reset).
 3. Selecciona el torneo.
 4. Selecciona el match a través de la sección de brackets o desde la listao desplegable "Selec. Match".
 5. Elige la carpeta donde están `p1score.txt` y `p2score.txt`. Recuerda tener activada la opción "Save overlay data to files" ubicada en el menú "Video" -> "Fightcade" (para activar esta opción abre cualquier juego de Fightcade en modo "Test Game").
