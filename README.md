@@ -25,7 +25,7 @@ https://nirvanaruns.itch.io/fightcade2challonge-control-v1
 
 ---
 ## Clona este repositorio:
-git clone https://github.com/tu-usuario/Fightcade2Challonge.git
+git clone https://github.com/Nirvanatistos/Fightcade2Challonge.git
 
 cd Fightcade2Challonge
 
