@@ -21,16 +21,6 @@
   - `tkinter`
 
 ---
-## 📁 Estructura del Proyecto
-.
-- assets/
--- frame0/ # Contiene las imágenes e íconos de la GUI
-challonge_credentials.json # Archivo donde se guardan tus credenciales de Challonge
-fightcade_directory.txt # Directorio predeterminado de Fightcade
-fightcade2challonge.py # Código principal del programa
-README.md # Este archivo
-
----
 ## Clona este repositorio:
 git clone https://github.com/tu-usuario/Fightcade2Challonge.git 
 cd Fightcade2Challonge
