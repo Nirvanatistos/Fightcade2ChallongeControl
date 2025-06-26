@@ -7,38 +7,38 @@
  Ideal para streamers y organizadores de Fighting Tournaments.
 
 ---
-## 💻 Windows Installer Download:
+## 💻 Windows Installer Download: 💻
 https://nirvanaruns.itch.io/fightcade2challonge-control-v1
 
 ---
-## 📦 Requisitos del Programa
+## 📦 Requisitos del Programa 📦
 
-- 💻 Windows
-- 🐍 Python 3.6+
-- 📁 Carpeta de FightCade con los archivos:
+- 💻 Windows 💻
+- 🐍 Python 3.6+ 🐍
+- 📁 Carpeta de FightCade con los archivos: 📁
   - `p1score.txt`
   - `p2score.txt`
-- 🔑 API Key de Challonge.
-- 📦 Librerías usadas:
+- 🔑 API Key de Challonge. 🔑
+- 📦 Librerías usadas: 📦
   - `challonge`
   - `tkinter`
 
 ---
-## Clona este repositorio:
+## 📦 Clona este repositorio: 📦
 git clone https://github.com/Nirvanatistos/Fightcade2Challonge.git
 
 cd Fightcade2Challonge
 
 ---
-## Instala las dependencias necesarias:
+## 🐍 Instala las dependencias necesarias: 🐍
 pip install -r requirements.txt
 
 ---
-## 🔑 ¿Cómo Obtener tu API Key de Challonge?.
+## 🔑 ¿Cómo Obtener tu API Key de Challonge?. 🔑
 
 Para usar este programa necesitas una **API Key de Challonge**.
 
-### Pasos:
+### 👉 Pasos: 
 1. Inicia sesión en [Challonge](https://challonge.com) .
 2. Ve a → https://challonge.com/settings/developer
 3. Baja hasta encontrar la sección **"Developer API Key"**.
@@ -47,13 +47,13 @@ Para usar este programa necesitas una **API Key de Challonge**.
 
 Tu API Key es algo como: `abcdefghijk1234567890`
 
-🔐 No la compartas públicamente.
+🔐 No la compartas públicamente. 🔐
 
 👉 Puedes regenerarla desde la misma página si crees que fue comprometida.
 
 ---
 
-## ✅ Características Principales.
+## ✅ Características Principales. ✅
 
 - 🔁 **Modo Automático de FightCade**: Lee los archivos de puntaje y envía automáticamente los resultados a Challonge.
 - 🏆 Compara contra "FT" (First To X) → cierra el match automáticamente cuando se alcanza el FT seleccionado.
@@ -66,7 +66,7 @@ Tu API Key es algo como: `abcdefghijk1234567890`
 
 ---
 
-## ⚙️ ¿Cómo funciona el Modo Fightcade?.
+## ⚙️ ¿Cómo funciona el Modo Fightcade?. ⚙️
 
 1. Abre un torneo de doble eliminación en Challonge.
 2. Selecciona cuántas victorias se necesitan para ganar (`FT`) ( Requerido: "FT Torneo" y "FT Final" para Losers Finals, Winners Finals, Grand Final y Grand Final Reset).
@@ -77,7 +77,7 @@ Tu API Key es algo como: `abcdefghijk1234567890`
 
 ---
 
-🎮Links de interés:
+🎮 Links de interés: 🎮
 
 Discord: https://discord.gg/7tfRJQbv8M
 Software desarrollado por [OSG]~Nirvana - 2025
