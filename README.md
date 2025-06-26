@@ -7,7 +7,10 @@
  Ideal para streamers y organizadores de Fighting Tournaments.
 
 ---
+## 💻 Windows Installer Download:
+https://nirvanaruns.itch.io/fightcade2challonge-control-v1
 
+---
 ## 📦 Requisitos del Programa
 
 - 💻 Windows
@@ -25,9 +28,6 @@
 git clone https://github.com/tu-usuario/Fightcade2Challonge.git
 
 cd Fightcade2Challonge
-
-## O descarga el instalador de:
-https://nirvanaruns.itch.io/fightcade2challonge-control-v1
 
 ---
 ## Instala las dependencias necesarias:
