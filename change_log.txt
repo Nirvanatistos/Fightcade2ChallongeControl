@@ -1,0 +1,13 @@
+[v1.0.1] - 26-06-2025
+### ¿Qué se modificó?
+- Se ajustaron problemas menores de elementos en pantalla.
+- Se añaden comentarios en el código.
+
+### 🔧 Cambios técnicos
+- Se movieron algunos elementos de la interfaz principal y se modificaron los tamaños de otros.
+- Se añaden comentarios en el código para mayor entendimiento de cualquier persona que quiera ver/modificar el código.
+
+### 📌 Notas
+- Falta eliminar el "modo Challonge" que aún figura en el código pero no es funcional.
+- Falta corregir problemas de la actualización automática de puntajes al iniciar la aplicación y no haber cargador un torneo.
+- Falta corregir la actualización automática de puntajes tras cargar un match cerrado. (vuelve a "00" cuando debería quedar en "mostrar el resultado subido")
