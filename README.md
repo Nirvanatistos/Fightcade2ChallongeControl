@@ -24,10 +24,6 @@ https://nirvanaruns.itch.io/fightcade2challonge-control-v1
   - `tkinter`
 
 ---
-## 🐍 Instala las dependencias necesarias: 🐍
-pip install -r requirements.txt
-
----
 ## 🔑 ¿Cómo Obtener tu API Key de Challonge?. 🔑
 
 Para usar este programa necesitas una **API Key de Challonge**.
