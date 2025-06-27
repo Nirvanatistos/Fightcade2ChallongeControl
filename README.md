@@ -24,12 +24,6 @@ https://nirvanaruns.itch.io/fightcade2challonge-control-v1
   - `tkinter`
 
 ---
-## 📦 Clona este repositorio: 📦
-git clone https://github.com/Nirvanatistos/Fightcade2Challonge.git
-
-cd Fightcade2Challonge
-
----
 ## 🐍 Instala las dependencias necesarias: 🐍
 pip install -r requirements.txt
 
