@@ -13,6 +13,13 @@ ASSETS_PATH = OUTPUT_PATH / "assets" / "frame0"  # Define ruta base para assets
 def relative_to_assets(path: str) -> Path:  # Función para convertir ruta relativa a asset
     return ASSETS_PATH / Path(path)  # Devuelve la ruta completa al asset
         
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+    
 # Constantes
 CREDENTIALS_FILE = "challonge_credentials.json"  # Archivo para guardar credenciales Challonge
 FC_DIRECTORY_FILE = "fightcade_directory.txt"  # Archivo para guardar directorio FightCade
@@ -20,7 +27,7 @@ FC_DIRECTORY_FILE = "fightcade_directory.txt"  # Archivo para guardar directorio
 # Traducciones
 LANGUAGES = {  # Diccionario de traducciones soportadas
     "es": {  # Traducciones en español
-        "title": "FightCade2Challonge Control v1.0",  # Título de ventana
+        "title": "FightCade2Challonge Control v1.0.1",  # Título de ventana
         "connect": "Conectar",  # Botón conectar
         "user": "Usuario:",  # Etiqueta usuario
         "api_key": "API Key:",  # Etiqueta API key
@@ -48,12 +55,12 @@ class ChallongeScoreboardApp:  # Clase principal de la aplicación
     def __init__(self, root):  # Constructor de la clase
         
         self.root = root  # Guarda referencia a la ventana principal
-        self.root.title("FightCade2Challonge Control v1.0")  # Establece título de ventana
+        self.root.title("FightCade2Challonge Control v1.0.1")  # Establece título de ventana
         self.root.geometry("1366x768")  # Establece tamaño de ventana
         self.root.configure(bg="#FFFFFF")  # Establece color de fondo blanco
         self.root.resizable(False, False)  # Deshabilita redimensionamiento
         try:  # Intenta establecer ícono de ventana
-            self.root.iconbitmap("assets/frame0/ico.ico")  # Carga ícono desde archivo
+            self.root.iconbitmap(resource_path("assets/frame0/ico.ico"))  # Carga ícono desde archivo
         except Exception as e:  # Captura excepción si falla
             print("No se pudo cargar el ícono.", e)  # Muestra mensaje de error
         
