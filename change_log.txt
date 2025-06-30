@@ -1,3 +1,21 @@
+[v1.2.1] - 30-06-2025
+### ¿Qué se modificó?
+- Se corrige error grave en la actualización de puntajes asociados al "ft final".
+- Se corrigen errores de redundancia y estructura del código.
+- Se integran nombres técnicos en las columnas de cada sección (brackets).
+
+### 🔧 Cambios técnicos
+- Se detectó un problema en las rondas finales (Desde Winners final hacia adelante) donde no se estaban actualizando de forma adecuada en referencia al combobox ft final. (CORREGIDO)
+- Se detectaron y corrigieron problemas varios de redundancia y estructura del código los cuales hacían que la aplicación funcionara más lento.
+- Se realizaron modificaciones en los nombres de las columnas de los matchs en la sección de brackets (winners y losers brackets) donde se comenzaron a denominar "WB" (Winners Bracket) y "LB" (Losers Brackets) para ahorrar espacio.
+
+### 📌 Notas
+- Falta eliminar el "modo Challonge" que aún figura en el código pero no es funcional. (Aún pendiente).
+- Falta corregir problemas de la actualización automática de puntajes al iniciar la aplicación y no haber cargador un torneo. (Aún pendiente).
+- Falta corregir la actualización automática de puntajes tras cargar un match cerrado. (vuelve a "00" cuando debería quedar en "mostrar el resultado subido") (Aún pendiente).
+- (nuevo) Falta integrar el nombre de columna "Winners Semifinal" antes de "WB Final" , de momento no existe lógica para ésto. (Queda pendiente y ojalá se pueda solucionar).
+
+
 [v1.0.1] - 26-06-2025
 ### ¿Qué se modificó?
 - Se ajustaron problemas menores de elementos en pantalla.
